@@ -340,7 +340,7 @@ section { padding: 80px 0; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  align-items: center;
+  align-items: start;
 }
 .cta-form-copy h2 { color: #fff; }
 .cta-form-copy p { color: #c6d2e1; font-size: 1.05rem; }
@@ -349,6 +349,13 @@ section { padding: 80px 0; }
   border-radius: var(--radius);
   padding: 32px;
   box-shadow: var(--shadow);
+}
+.crm-form-embed {
+  background: var(--color-white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  line-height: 0;
 }
 .form-row { margin-bottom: 18px; }
 .form-row-split {
